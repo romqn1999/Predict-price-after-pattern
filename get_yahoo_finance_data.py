@@ -2,7 +2,7 @@ import pandas_datareader.data as web
 import time
 
 
-def get_data_yahoo(ticker, start, end):
+def get_data_yahoo(ticker, start_time, end_time):
     # yahoo gives only daily historical data
     connected = False
     while not connected:
